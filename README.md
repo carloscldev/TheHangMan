@@ -32,10 +32,10 @@ The Hangman is a classic word guessing game where you try to guess the word by s
 Follow these steps to install and run The Hangman in your local machine:
 
 1. Clone the repository:
-   git clone https://github.com/[username]/hangman.git
+   git clone https://github.com/carloscldev/TheHangMan.git
 
 2. Navigate to the project directory:
-   cd hangman
+   cd TheHangMan
 
 3. Install the dependencies:
    npm install
