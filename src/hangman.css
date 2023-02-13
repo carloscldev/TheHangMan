@@ -1,0 +1,115 @@
+.hangman {
+    height: 450px;
+    width: 300px;
+    margin: 20px auto;    
+    background-color: #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #999;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;    
+}
+
+button:hover {
+    background-color: #444;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #F0F0F0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.1);
+}
+
+.word-container {
+    display: flex;
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+.letter {
+    font-size: 24px;
+    margin-right: 10px;
+    color: rgb(139, 200, 6);
+    justify-content: center;
+}
+
+.guess {
+    font-size: 24px;
+    margin-right: 10px;
+    color: rgb(139, 200, 6);
+    justify-content: center;
+}
+
+.incorrect-guesses {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #888;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.hangman.incorrect-0 {
+    background-image: url('./hangmandrawings/state1.GIF');
+}
+
+.hangman.incorrect-1 {
+    background-image: url('./hangmandrawings/state2-.gif');
+}
+
+.hangman.incorrect-2 {
+    background-image: url('./hangmandrawings/state3.GIF');
+}
+
+.hangman.incorrect-3 {
+    background-image: url('./hangmandrawings/state4.GIF');
+}
+
+.hangman.incorrect-4 {
+    background-image: url('./hangmandrawings/state5.GIF');
+}
+
+.hangman.incorrect-5 {
+    background-image: url('./hangmandrawings/state6.GIF');
+}
+
+.hangman.incorrect-6 {
+    background-image: url('./hangmandrawings/state7.GIF');
+}
+
+.hangman.incorrect-7 {
+    background-image: url('./hangmandrawings/state8.GIF');
+}
+
+.hangman.incorrect-8 {
+    background-image: url('./hangmandrawings/state9.GIF');
+}
+
+.hangman.incorrect-9 {
+    background-image: url('./hangmandrawings/state10.GIF');
+}
+
+.hangman.incorrect-10 {
+    background-image: url('./hangmandrawings/state11.GIF');
+}
+
+.hangman.incorrect-11 {
+    background-image: url('./hangmandrawings/dead.gif');   
+}

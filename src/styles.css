@@ -1,0 +1,62 @@
+.hangman {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.stage {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+
+.incorrect-guesses {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.word {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.letter {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.guessed-letter {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.result {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.restart-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+
