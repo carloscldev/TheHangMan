@@ -21,7 +21,7 @@ The Hangman is a classic word guessing game where you try to guess the word by s
 
 <div align="center">
   
-<img src="https://github.com/carloscldev/TheHangMan/public/screenshot.png](https://github.com/carloscldev/TheHangMan/blob/main/public/screenshot.png">
+<img src="https://raw.githubusercontent.com/carloscldev/TheHangMan/main/public/screenshot.png">
   
 </div>
 
